@@ -15,3 +15,9 @@ unsigned char PixelFilter::MaxDivisionFilter(unsigned char pixelValue)
     pixelValue = (MaxValue+pixelValue)/2;
     return pixelValue;
 }
+
+unsigned char PixelFilter::MinDivisionFilter(unsigned char pixelValue)
+{
+    pixelValue = pixelValue/2;
+    return pixelValue;
+}

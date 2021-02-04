@@ -14,3 +14,8 @@ TEST(PixelFilterTests, MaxDivisionFilterReturnCorretValue){
     auto pixelFilter = PixelFilter();
     EXPECT_EQ( pixelFilter.MaxDivisionFilter(PixelValue), 177 ) << "Wrong pixel value!";
 }
+
+TEST(PixelFilterTests, MinDivisionFilterReturnCorretValue){
+    auto pixelFilter = PixelFilter();
+    EXPECT_EQ( pixelFilter.MinDivisionFilter(PixelValue), 50 ) << "Wrong pixel value!";
+}
