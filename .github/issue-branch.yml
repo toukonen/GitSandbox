@@ -1,2 +1,2 @@
 mode: chatops
-branchName: 'I-${issue.number}-${issue.title}'
+branchName: 'ISSUE-${issue.number}-${issue.title}'
