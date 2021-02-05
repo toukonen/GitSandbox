@@ -21,3 +21,9 @@ unsigned char PixelFilter::MinDivisionFilter(unsigned char pixelValue)
     pixelValue = pixelValue/2;
     return pixelValue;
 }
+
+unsigned char PixelFilter::NewFilter(unsigned char pixelValue)
+{
+    pixelValue = pixelValue*2;
+    return pixelValue;
+}
