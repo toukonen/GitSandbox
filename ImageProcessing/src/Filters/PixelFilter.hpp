@@ -11,6 +11,7 @@ class PixelFilter {
     unsigned char DivisionFilter(unsigned char pixelValue);
     unsigned char MaxDivisionFilter(unsigned char pixelValue);
     unsigned char MinDivisionFilter(unsigned char pixelValue);
+    unsigned char NewFilter(unsigned char pixelValue);
 };
 
 }
